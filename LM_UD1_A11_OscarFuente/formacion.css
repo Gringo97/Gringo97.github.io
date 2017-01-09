@@ -1,0 +1,48 @@
+p{
+    margin:0;
+    padding:0;
+}
+
+#infanta,#utad
+{
+    margin-top: 70px;   
+}
+
+#infanta img
+{
+    display:inline-block;
+    width:250px;
+    height:250px;
+    margin: 10px  20px 0px 10px;
+    text-align: left;
+}
+
+#infanta p
+{
+    display:inline-block;
+    width:calc(100% - 290px);
+    vertical-align:top;
+}
+
+#utad img
+{
+    display:inline-block;
+    text-align: right;
+    width:500px; 
+    height: 150px;
+    margin: 20px 0px 0px 10px;
+    float:right;
+}
+
+#utad p
+{
+    display:inline-block;
+    width:calc(100% - 520px);
+    vertical-align:top;
+} 
+
+
+#infanta,#utad
+{
+    padding:25px 30px;
+}

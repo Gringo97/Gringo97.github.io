@@ -1,0 +1,191 @@
+body 	
+    {
+    min-width:230px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+16,9fd8ef+30,2ab0ed+72 */
+	background: rgb(228,245,252); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(228,245,252,1) 0%, rgba(191,232,249,1) 16%, rgba(159,216,239,1) 30%, rgba(42,176,237,1) 72%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 16%,rgba(159,216,239,1) 30%,rgba(42,176,237,1) 72%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(228,245,252,1) 0%,rgba(191,232,249,1) 16%,rgba(159,216,239,1) 30%,rgba(42,176,237,1) 72%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+	font-family:mifuente;	
+    }
+
+header
+    {
+	border:10px;
+	background:rgba(0,0,0,0);
+	width:100%;
+	border-radius:30px;
+	}
+
+header img
+	{
+   float:left;
+	margin:5px 5px 5px 20px;
+	width:px;
+	height:100px;
+	}
+
+ul
+    {
+	margin:0; 
+	padding:0px;
+	border:30px;
+	background-color:rgba(0,0,0,0);
+	border-radius:45px;
+	display:inline-block;
+	margin:23px 10px 20px 10px;
+	}
+
+ul li
+	{
+	width:180px;
+    height:auto;
+	color:#0066CC;
+	margin:10px 5px 5px 20px;
+	background-color:rgba(104,214,247,0.5);
+	border-radius:45px;
+	float:left;
+	display:block;
+	text-align:center;
+    font-size:25px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.35);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.35);
+	}
+	
+li:hover
+	{
+	background-color:rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 1px 1px 30px 1px rgba(0, 46, 255, 1);
+	-moz-box-shadow:    1px 1px 30px 1px rgba(0, 46, 255, 1);
+	box-shadow:         1px 1px 30px 1px rgba(0, 46, 255, 1);
+	}
+	
+nav a
+	{
+text-decoration: none;
+
+	}
+	
+nav a:link
+	{
+	color:#2a6198;
+	text-decoration: none;
+	}
+
+nav a:visited
+	{ color:#007bf5;
+	text-decoration: none;
+	}
+
+nav a:hover
+	{color:#002e5c;
+	text-decoration:none;
+	}
+
+nav a:active
+	{ color:#002143;
+	text-decoration: none;
+	}
+
+main	 
+	{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	margin: auto;
+    padding-top: -15px;
+    border:none;
+	}
+
+section
+    {
+    overflow:auto;;
+    width:96%;
+    font-size:30px;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    
+    }
+section article
+    {
+    width: auto;
+    float: right:
+    }
+.TituloJ
+    {
+	float:left;
+    color:darkblue;
+	font-size:40px;
+    position:static;
+	}
+.Enlaces
+    {
+    float: left;
+    }   
+
+
+section article
+	{
+	color:#2a6198;
+	font-size:80%;
+   height:20%;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius:10px;
+	padding:20px;
+    min-height:400px
+	}
+section article p
+    {
+    margin:20px;
+    margin-top:50px;
+    }
+section article a
+    {
+    float:right;
+    color:#2a6198;
+	font-size:15px;
+    }
+footer 
+	{
+	background-color:rgba(0,0,0,0.2) ;
+	color: #FDFDFE ;
+	width: 100%;
+	margin: 2%;
+	margin: auto;
+	margin-top: 10px;
+	border:1px solid;
+	font-size: 10px;
+	padding:3px;
+	text-align: center;
+	}		 
+iframe{
+    float:left;
+    margin: 0 0 1em 1em;
+	clear:left;
+	float:left:
+	frameborder=0;
+    display:inline-block;
+    width:400px;
+    height:300px;
+    margin: 5px 20px;
+	}
+link-inicio {
+    bottom: 0px;
+    position: relative;
+}
+.clearfix:after
+	{
+	content:"";
+	display:block;
+	clear:both;
+	}
+	
+@font-face
+	{
+	font-family:mifuente;
+	src:url(PEPSI_pl.ttf);
+	font-weight:bold;
+	}
