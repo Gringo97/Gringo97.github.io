@@ -24,17 +24,29 @@ function myFunction(arr) {
          var article = document.createElement("article");
          var div2 = document.createElement("div");
          var imagen = document.createElement("img");
-         var parrafo = document.createElement("p");
-         var enlace = document.createElement("a");
-         var p2 = document.createElement("p");
-         var p3 = document.createElement("p");
         
         
-              
+        var titulo = document.createElement("h2");      
         var texto1 = document.createTextNode(arr[i].Titulo);
-        var nodoEnlace = document.createTextNode(arr[i].Link);  
+        
+        var enlace = document.createElement("a");
+
+        
+        var p2 = document.createElement("p");
         var nodoDesc = document.createTextNode(arr[i].Descripcion);
-        var nodoDestacado = arr[i].Destacado;
+        
+        var p3 = document.createElement("p");
+        var nodoFecha = document.createTextNode(arr[i].Fecha_de_realizacion);
+        
+        var p4 = document.createElement("p");
+        var nodoMiembros = document.createTextNode(arr[i].Miembros_grupo);
+        var p5 = document.createElement("p");
+        var nodoAsignatura = document.createTextNode(arr[i].Asignatura_relacionada);
+    
+
+     
+        
+    
         
         
         
@@ -44,13 +56,18 @@ function myFunction(arr) {
         //ATRIBUTOS//    
         
         article.setAttribute("class","box");
-        div2.setAttribute("class","team-member");
+        div2.setAttribute("class", "team-member");
         
-        imagen.setAttribute("class","child fixed-size");
+        imagen.setAttribute("class", "child fixed-size");
         imagen.setAttribute("src", arr[i].Foto);
+        
         enlace.setAttribute("href", arr[i].Link);
         enlace.setAttribute("target", "_blank");
-        parrafo.setAttribute("class","child text");
+        
+        titulo.setAttribute("class", "child text");
+        
+
+        
         
         
         
@@ -59,13 +76,32 @@ function myFunction(arr) {
 
         section.appendChild(article);
         article.appendChild(div2);
-        div2.appendChild(imagen);
-        div2.appendChild(parrafo);
-        parrafo.appendChild(texto1);
+        div2.appendChild(enlace);
+        enlace.appendChild(imagen);
+        
+        div2.appendChild(titulo);
         div2.appendChild(p2);
         p2.appendChild(nodoDesc);
+        
         div2.appendChild(p3);
-        p3.appendChild(nodoEnlace);
+        p3.appendChild(nodoFecha);
+        
+        div2.appendChild(p4);
+        p4.appendChild(nodoMiembros);
+        
+        div2.appendChild(p5);
+        p5.appendChild(nodoAsignatura);
+        
+ 
+     
+        
+        
+        
+        titulo.appendChild(texto1);
+       
+       
+        
+        
    
 
     }
