@@ -1,0 +1,52 @@
+
+
+    {
+        "actividades":[
+    
+        {
+            "Titulo":"LM_UD1_A06",
+            "Fecha_de_realizacion":"30/10/2016",
+            "Descripcion":"Glosario HTML",
+            "Link":"",
+            "Miembros_grupo":"Individual",
+            "Asignatura_relacionada":"lenguaja De Marcas",
+            "Disponible":"No",
+            "Destacado":"No",
+            "Responsive":"No",
+            "Visualizacion_recomendada":"No"
+        },
+    
+  
+        {
+            "Titulo":"LM_UD1_A11",
+            "Fecha_de_realizacion":"11/12/2017",
+            "Descripcion":"CV en Web",
+            "Link":"",
+            "Miembros_grupo":"Individual",
+            "Asignatura_relacionada":"Lenguaje de Marcas",
+            "Disponible":"No",
+            "Destacado":"No",
+            "Responsive":"No",
+            "Visualizacion_recomendada":"No"
+        },
+    
+    
+    
+    
+        {
+            "Titulo":"LM_UD1_A05",
+            "Fecha_de_realizacion":"17/11/2017",
+            "Descripcion":"Uso basico HTML",
+            "Link":"",
+            "Miembros_grupo":"Individual",
+            "Asignatura_relacionada":"Lenguaje de Marcas",
+            "Disponible":"No",
+            "Destacado":"No",
+            "Responsive":"No",
+            "Visualizacion_recomendada":"No"
+        }
+
+
+    ]
+}
+

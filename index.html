@@ -1,9 +1,71 @@
 <html>
 <head>
-    
-</head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stilo.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="estilo.css" rel="stylesheet">
+</head>  
 <body>
-<p>HOLA MUNDO</p>    
+    <script>
+        var xmlhttp = new XMLHttpRequest();
+        var url = "aaa.json";
+
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var aux = JSON.parse(this.responseText);
+                var myArr = aux.actividades;
+                myFunction(myArr);
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+
+        function myFunction(arr) {
+            var tabla= document.createElement("table");
+            var element =document.getElementById("id01");
+            element.appendChild(tabla);
+            tabla.setAttribute("border",1);
     
+    
+  
+            for(i = 0; i < arr.length; i++) {
+                var fila= document.createElement("tr");
+                var columna1= document.createElement("td");
+                var texto1= document.createTextNode(arr[i].Titulo);
+                columna1.appendChild(texto1);
+                
+                var columna2= document.createElement("td");
+                alert(arr[i].Fecha_de_realizacion);
+                var texto2= document.createTextNode(arr[i].Fecha_de_realizacion);
+                columna2.appendChild(texto2);
+                
+                /*var texto3= document.createTextNode(arr[i].Descripcion);
+                var texto4= document.createTextNode(arr[i].Miembros_grupo);
+                var texto5= document.createTextNode(arr[i].Asignatura_relacionada);
+                var texto6= document.createTextNode(arr[i].Disponible);
+                var texto7= document.createTextNode(arr[i].Destacado);
+                var texto8= document.createTextNode(arr[i].Responsive);
+                var texto9= document.createTextNode(arr[i].Visualizacion_recomendada);*/
+        
+                tabla.appendChild(fila);
+                fila.appendChild(columna1);
+                fila.appendChild(columna2);
+                
+                
+            }
+    
+        }
+</script>
+<header>
+    <a>Oscar de la Fuente Ruiz</a>
+</header>
+    <section>
+        <div class="box">	
+	       	<div class="team-member">
+   		   <img src="a.png" alt="" class="child fixed-size" />   
+    	    <p class="child text">Member 2</p>
+  </div>
+        </div>
+    </section>
 </body>
 </html>
